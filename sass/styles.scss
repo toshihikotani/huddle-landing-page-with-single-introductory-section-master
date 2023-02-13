@@ -1,0 +1,22 @@
+@import 'typography.css';
+
+// IMPORT CORE STYLING FOR FONT AWESOME
+@import 'fontawesome/scss/fontawesome.scss';
+
+// IMPORT SOLID, BRANDS, AND REGULAR FOR FONT AWESOME ICON
+@import 'fontawesome/scss/solid.scss';
+@import 'fontawesome/scss/brands.scss';
+@import 'fontawesome/scss/regular.scss';
+
+// COLORS
+$violet: hsl(257, 40%, 49%);
+
+/* COMMON */
+html, body {
+    max-width: 100vw;
+}
+
+body {
+    background:$violet url('../images/bg-mobile.svg') no-repeat;
+    max-height: 100vh;
+}
