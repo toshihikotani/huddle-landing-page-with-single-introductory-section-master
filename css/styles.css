@@ -42,8 +42,8 @@ body {
 }
 .container main .detail-section h1 {
   font-family: "Poppins-Regular";
-  font-size: 1.5em;
   color: white;
+  font-size: 1.5em;
   letter-spacing: 1px;
 }
 .container main .detail-section p {
@@ -58,8 +58,8 @@ body {
   border: 0px solid;
   border-radius: 50px;
   font-family: "Poppins-Regular";
-  font-size: 0.75em;
   color: hsl(257deg, 40%, 49%);
+  font-size: 0.75em;
 }
 .container footer {
   display: flex;
@@ -80,5 +80,78 @@ body {
   margin-left: 8px;
   margin-right: 8px;
 }
+
+/* LANDSCAPE TABLET */
+/* LAPTOP/DESKTOP */
+@media only screen and (min-width: 992px) {
+  body {
+    background: hsl(257deg, 40%, 49%) url("../images/bg-desktop.svg") no-repeat;
+  }
+  /* CONTAINER */
+  .container {
+    width: 1275px;
+    margin: 25px;
+    /* HEADER */
+    /* MAIN */
+    /* FOOTER */
+  }
+  .container header {
+    height: 160px;
+  }
+  .container header .logo-image {
+    margin-top: 80px;
+    width: 17%;
+  }
+  .container main {
+    flex-direction: row;
+    /* DETAIL SECTION */
+  }
+  .container main img {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .container main .detail-section {
+    margin-top: 50px;
+    margin-left: 55px;
+    text-align: left;
+  }
+  .container main .detail-section h1 {
+    margin-bottom: 20px;
+    font-family: "Poppins-Regular";
+    color: white;
+    font-size: 2.4em;
+  }
+  .container main .detail-section p {
+    margin: 8px 0px 15px;
+    font-family: "OpenSans-Regular";
+    color: white;
+    font-size: 1.1em;
+    padding: 2px;
+    line-height: 27px;
+  }
+  .container main .detail-section .register-button {
+    margin-top: 10px;
+    height: 54px;
+    font-family: "Poppins-Regular";
+    color: hsl(257deg, 40%, 49%);
+    font-size: 1.15em;
+  }
+  .container footer {
+    margin-top: 15px;
+    justify-content: end;
+    align-items: end;
+    height: 40px;
+  }
+  .container footer .circle-border {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+  }
+  .container footer .circle-border:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+/* LARGE LAPTOP/DESKTOP  */
 
 /*# sourceMappingURL=styles.css.map */
