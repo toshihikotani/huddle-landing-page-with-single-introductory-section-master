@@ -34,7 +34,8 @@ body {
         margin: 35px 0px;
 
         .logo-image {
-            width: 40%;
+            margin-top: 30px;
+            width: 42%;
         }
     }
 
@@ -55,7 +56,7 @@ body {
 
             h1 {
                 @include fontSetup('Poppins-Regular', white);
-                font-size: 1.5em;
+                font-size: 1.25em;
                 letter-spacing: 1px;
             }
 
@@ -81,21 +82,19 @@ body {
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 80px;
+        height: 100px;
 
         .circle-border {
+            background-color: transparent;
             text-align: center;
-            width: 20px;
-            height: 20px;
+            font-size: 1em;
+            width: 30px;
+            height: 30px;
             border: 1px solid white;
             border-radius: 40px;
             padding: 5px;
             color: white;
-
-            &:nth-child(2){
-                margin-left: 8px;
-                margin-right: 8px;
-            }
+            margin-left: 8px;
         }
     }
 }
@@ -113,7 +112,7 @@ body {
     
      /* CONTAINER */
     .container {
-        width: 1275px;
+        width: 1280px;
         margin: 25px;
     
         /* HEADER */
@@ -121,7 +120,7 @@ body {
             height: 160px;
         
             .logo-image {
-                 margin-top: 80px;
+                margin-top: 95px;
                 width: 17%;
             }
         }
@@ -166,20 +165,16 @@ body {
     
         /* FOOTER */
         footer {
-            margin-top: 15px;
+            margin-top: 20px;
             justify-content: end;
             align-items: end;
             height: 40px;
     
             .circle-border {        
-                width: 28px;
-                height: 28px;
-                padding: 4px;
-    
-                &:nth-child(2){
-                    margin-left: 10px;
-                    margin-right: 10px;
-                }
+                width: 40px;
+                height: 40px;
+                font-size: 1.25em;
+                margin-left: 12px;
             }
         }
     }
