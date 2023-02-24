@@ -79,6 +79,10 @@ body {
   padding: 5px;
   color: white;
   margin-left: 8px;
+  cursor: pointer;
+}
+.container footer .circle-border i {
+  vertical-align: middle;
 }
 
 /* LANDSCAPE TABLET */

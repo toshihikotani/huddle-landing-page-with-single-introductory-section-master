@@ -95,6 +95,11 @@ body {
             padding: 5px;
             color: white;
             margin-left: 8px;
+            cursor: pointer;
+
+            i {
+                vertical-align: middle;
+            }
         }
     }
 }
